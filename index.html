@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import materialize.css-->
+        <title>Minesweeper</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    </head>
+
+    <body>
+        <div class="container text-center my-5">
+            <div class="row">
+                <div id="1A" class="col-1 border border-dark">1A</div>
+                <div id="1B" class="col-1 border border-dark">1B</div>
+                <div id="1C" class="col-1 border border-dark">1C</div>
+                <div id="2A" class="col-1 border border-dark">2A</div>
+                <div id="2B" class="col-1 border border-dark">2B</div>
+                <div id="2C" class="col-1 border border-dark">2C</div>
+                <div id="3A" class="col-1 border border-dark">3A</div>
+                <div id="3B" class="col-1 border border-dark">3B</div>
+                <div id="3C" class="col-1 border border-dark">3C</div>
+            </div>
+            <div class="row">
+                <div id="1D" class="col-1 border border-dark">1D</div>
+                <div id="1E" class="col-1 border border-dark">1E</div>
+                <div id="1F" class="col-1 border border-dark">1F</div>
+                <div id="2D" class="col-1 border border-dark">2D</div>
+                <div id="2E" class="col-1 border border-dark">2E</div>
+                <div id="2F" class="col-1 border border-dark">2F</div>
+                <div id="3D" class="col-1 border border-dark">3D</div>
+                <div id="3E" class="col-1 border border-dark">3E</div>
+                <div id="3F" class="col-1 border border-dark">3F</div>
+            </div>
+            <div class="row">
+                <div id="1G" class="col-1 border border-dark">1G</div>
+                <div id="1H" class="col-1 border border-dark">1H</div>
+                <div id="1I" class="col-1 border border-dark">1I</div>
+                <div id="2G" class="col-1 border border-dark">2G</div>
+                <div id="2H" class="col-1 border border-dark">2H</div>
+                <div id="2I" class="col-1 border border-dark">2I</div>
+                <div id="3G" class="col-1 border border-dark">3G</div>
+                <div id="3H" class="col-1 border border-dark">3H</div>
+                <div id="3I" class="col-1 border border-dark">3I</div>
+            </div>
+            <div class="row">
+                <div id="4A" class="col-1 border border-dark">4A</div>
+                <div id="4B" class="col-1 border border-dark">4B</div>
+                <div id="4C" class="col-1 border border-dark">4C</div>
+                <div id="5A" class="col-1 border border-dark">5A</div>
+                <div id="5B" class="col-1 border border-dark">5B</div>
+                <div id="5C" class="col-1 border border-dark">5C</div>
+                <div id="6A" class="col-1 border border-dark">6A</div>
+                <div id="6B" class="col-1 border border-dark">6B</div>
+                <div id="6C" class="col-1 border border-dark">6C</div>
+            </div>
+            <div class="row">
+                <div id="4D" class="col-1 border border-dark">4D</div>
+                <div id="4E" class="col-1 border border-dark">4E</div>
+                <div id="4F" class="col-1 border border-dark">4F</div>
+                <div id="5D" class="col-1 border border-dark">5D</div>
+                <div id="5E" class="col-1 border border-dark">5E</div>
+                <div id="5F" class="col-1 border border-dark">5F</div>
+                <div id="6D" class="col-1 border border-dark">6D</div>
+                <div id="6E" class="col-1 border border-dark">6E</div>
+                <div id="6F" class="col-1 border border-dark">6F</div>
+            </div>
+            <div class="row">
+                <div id="4G" class="col-1 border border-dark">4G</div>
+                <div id="4H" class="col-1 border border-dark">4H</div>
+                <div id="4I" class="col-1 border border-dark">4I</div>
+                <div id="5G" class="col-1 border border-dark">5G</div>
+                <div id="5H" class="col-1 border border-dark">5H</div>
+                <div id="5I" class="col-1 border border-dark">5I</div>
+                <div id="6G" class="col-1 border border-dark">6G</div>
+                <div id="6H" class="col-1 border border-dark">6H</div>
+                <div id="6I" class="col-1 border border-dark">6I</div>
+            </div>
+            <div class="row">
+                <div id="7A" class="col-1 border border-dark">7A</div>
+                <div id="7B" class="col-1 border border-dark">7B</div>
+                <div id="7C" class="col-1 border border-dark">7C</div>
+                <div id="8A" class="col-1 border border-dark">8A</div>
+                <div id="8B" class="col-1 border border-dark">8B</div>
+                <div id="8C" class="col-1 border border-dark">8C</div>
+                <div id="9A" class="col-1 border border-dark">9A</div>
+                <div id="9B" class="col-1 border border-dark">9B</div>
+                <div id="9C" class="col-1 border border-dark">9C</div>
+            </div>
+            <div class="row">
+                <div id="7D" class="col-1 border border-dark">7D</div>
+                <div id="7E" class="col-1 border border-dark">7E</div>
+                <div id="7F" class="col-1 border border-dark">7F</div>
+                <div id="8D" class="col-1 border border-dark">8D</div>
+                <div id="8E" class="col-1 border border-dark">8E</div>
+                <div id="8F" class="col-1 border border-dark">8F</div>
+                <div id="9D" class="col-1 border border-dark">9D</div>
+                <div id="9E" class="col-1 border border-dark">9E</div>
+                <div id="9F" class="col-1 border border-dark">9F</div>
+            </div>
+            <div class="row">
+                <div id="7G" class="col-1 border border-dark">7G</div>
+                <div id="7H" class="col-1 border border-dark">7H</div>
+                <div id="7I" class="col-1 border border-dark">7I</div>
+                <div id="8G" class="col-1 border border-dark">8G</div>
+                <div id="8H" class="col-1 border border-dark">8H</div>
+                <div id="8I" class="col-1 border border-dark">8I</div>
+                <div id="9G" class="col-1 border border-dark">9G</div>
+                <div id="9H" class="col-1 border border-dark">9H</div>
+                <div id="9I" class="col-1 border border-dark">9I</div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
+
